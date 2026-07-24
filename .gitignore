@@ -1,0 +1,9 @@
+*
+**/*
+*.exe
+
+#Whitelist files with extensions and source
+
+!*.*
+!**/*.*
+!**/*.cpp
