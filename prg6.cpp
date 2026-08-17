@@ -9,7 +9,6 @@ private:
 
 public:
 
-    // Default Constructor
     Student()
     {
         roll = 0;
@@ -17,7 +16,6 @@ public:
         cout << "Default Constructor Called" << endl;
     }
 
-    // Parameterized Constructor
     Student(int r, string n)
     {
         roll = r;
@@ -25,7 +23,7 @@ public:
         cout << "Parameterized Constructor Called" << endl;
     }
 
-    // Copy Constructor
+
     Student(Student &s)
     {
         roll = s.roll;
@@ -39,7 +37,6 @@ public:
         cout << "Name: " << name << endl;
     }
 
-    // Destructor
     ~Student()
     {
         cout << "Destructor Called" << endl;

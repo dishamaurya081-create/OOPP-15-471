@@ -6,15 +6,17 @@ void show(int x, int y)
     cout << "x: " << x << ", y: " << y << endl;
 }
 
-// Call by Value
+
 void swapByVal(int x, int y)
 {
     int z = x;
     x = y;
     y = z;
+
+    cout<<"After swapByVal: ";
+    show(x, y);
 }
 
-// Call by Reference
 void swapByRef(int &x, int &y)
 {
     int z = x;
@@ -22,7 +24,6 @@ void swapByRef(int &x, int &y)
     y = z;
 }
 
-// Call by Address
 void swapByAddress(int *x, int *y)
 {
     int z = *x;
@@ -38,9 +39,6 @@ int main()
     show(x, y);
 
     swapByVal(x, y);
-
-    cout << "After swapByVal: ";
-    show(x, y);
 
     cout << endl;
 

@@ -1,19 +1,16 @@
 #include <iostream>
 using namespace std;
 
-// Inline Function
 inline int square(int x)
 {
     return x * x;
 }
 
-// Default Argument Function
 int add(int a, int b = 10)
 {
     return a + b;
 }
 
-// Function Overloading
 int multiply(int a, int b)
 {
     return a * b;
