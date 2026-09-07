@@ -1,11 +1,5 @@
-*
-**/*
 *.exe
+*/*.exe
 
-#Whitelist files with extensions and source
-
-!*.*
-!**/*.*
-!**/*.cpp
 Object Oriented Programming Paradigm Lab 
 Subject Code :CS25351
