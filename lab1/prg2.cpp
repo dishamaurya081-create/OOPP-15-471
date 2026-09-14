@@ -3,12 +3,11 @@ using namespace std;
 
 class Student
 {
-private:
+public:
     string name;
     int roll;
     string branch;
 
-public:
     void input()
     {
         cout << "Enter name: ";
@@ -23,7 +22,6 @@ public:
 
     void show()
     {
-        cout << "\nStudent Details:" << endl;
         cout << "Name: " << name << endl;
         cout << "Roll Number: " << roll << endl;
         cout << "Branch: " << branch << endl;
@@ -34,16 +32,16 @@ int main()
 {
     Student s1, s2;
 
-    cout << "Enter details of Student 1:" << endl;
+    cout << "Enter details of Student 1" << endl;
     s1.input();
 
     cout << "\nEnter details of Student 2:" << endl;
     s2.input();
 
-    cout << "\nStudent 1";
+    cout << "\nDetails of Student 1:" << endl;
     s1.show();
 
-    cout << "\nStudent 2";
+    cout << "\nDetails of Student 2:" << endl;
     s2.show();
 
     return 0;
